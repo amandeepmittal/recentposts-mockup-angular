@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Recent Posts Mockup</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="app.js"></script>
+</head>
+<body ng-app="app">
+	<div class="container" ng-controller="postCtrl">
+		<input type="text" ng-model="postUser" placeholder="Username">
+		<input type="text" ng-model="postBody" placeholder="Content">
+		<button ng-click="addPost()" class="btn btn-primary"> Add New Post</button>
+		<hr>
+		<h1>Recent Posts</h1>
+		<ul class="list-group" ng-repeat="post in posts">
+			<li class="list-group-item">
+				<strong>@{{post.username}}</strong>
+				&nbsp;
+				<span>{{post.body}}</span>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

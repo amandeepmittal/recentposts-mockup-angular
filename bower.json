@@ -1,0 +1,21 @@
+{
+  "name": "recentposts-mockup-angular",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Aman Mittal (http://amandeepmittal.github.io/)"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.0"
+  }
+}
