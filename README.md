@@ -1,5 +1,7 @@
 # Recent Posts Mockup
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/amandeepmittal/recentposts-mockup-angular.svg)](https://greenkeeper.io/)
+
 ### User Stories
 * Let user add a new post
     * add new post with custom username & body
